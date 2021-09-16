@@ -5,9 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Fligno Take-Home Exam</title>
+        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
         
-        
-
     </head>
     <body>
         <div id="example">
