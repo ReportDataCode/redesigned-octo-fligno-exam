@@ -1,10 +1,23 @@
 import React from "react";
+import AppContainer from "./AppContainer";
 
 const Add = () => {
     return (
-        <div className="Add__container">
-            <h1>This is Add component</h1>
-        </div>
+        <AppContainer
+        title="ADD POST" 
+        >
+            <form>
+                <div className="form-group">
+                    <label>
+                        TITLE
+                    </label>
+                    <input type="text" className="form-control" type="text" />  
+
+
+                </div>
+            </form>
+
+            </AppContainer>
     );
 };
 

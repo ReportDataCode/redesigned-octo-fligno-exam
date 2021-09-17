@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AppContainer from "./AppContainer";
 
 const Home = () => {
     return (
-        <div className="container">
-           <div class="card">
-               <h5 class="card-header">
-                   Laravel + React.JS - CRUD
-                   </h5>
-                   <div class="card-body">
-                       
-                       <Link to="/add" class="btn btn-primary">Go somewhere</Link>
-                       <div className="table-responsive">
+        <AppContainer
+        title="Laravel + React.JS - CRUD"
+        >
+            
+           
+               
+                   <Link to="/add" class="btn btn-primary">Go somewhere</Link>
+                   <div className="table-responsive">
                            <table className="table table-striped mt-4">
                                <thead>
                                     <tr>
@@ -41,9 +41,11 @@ const Home = () => {
                            </table>
 
                        </div>
-                       </div>
-                       </div>
-                       </div>
+                       
+                       
+                       
+        </AppContainer>
+        
     );
 };
 
