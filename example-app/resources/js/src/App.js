@@ -27,7 +27,7 @@ const App = () => {
     
 };
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
 
 // 8:03 https://www.youtube.com/watch?v=RXD7wgP5BXU&t=42s
 
