@@ -4,20 +4,28 @@ import AppContainer from "./AppContainer";
 const Add = () => {
     return (
         <AppContainer
-        title="ADD POST" 
+        title="ADD POST"
         >
             <form>
                 <div className="form-group">
-                    <label>
-                        TITLE
-                    </label>
-                    <input type="text" className="form-control" type="text" />  
+                    <label>title</label>
+                    <input type="text" className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label>
+                            Description
+                        </label>
+                        <textarea className="form-control" ></textarea>
+                        </div>
+                        <div className="form-group">
+                            <button className="btn btn-success" type="button">
+                                ADD
 
-
-                </div>
+                            </button>
+                        </div>
             </form>
-
-            </AppContainer>
+        </AppContainer>
+        
     );
 };
 

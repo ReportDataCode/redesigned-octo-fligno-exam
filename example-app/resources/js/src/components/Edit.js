@@ -1,12 +1,33 @@
 import React from "react";
+import AppContainer from "./AppContainer";
 
 const Edit = () => {
     return (
-        <div className="Edit__container">
-            <h1>This is Edit component</h1>
-        </div>
+        <AppContainer
+        title="EDIT POST"
+        >
+            <form>
+                <div className="form-group">
+                    <label>title</label>
+                    <input type="text" className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label>
+                            Description
+                        </label>
+                        <textarea className="form-control" ></textarea>
+                        </div>
+                        <div className="form-group">
+                            <button className="btn btn-success" type="button">
+                                Save
+
+                            </button>
+                        </div>
+            </form>
+        </AppContainer>
+        
     );
 };
 
-export default Edit;
+export default Add;
 
